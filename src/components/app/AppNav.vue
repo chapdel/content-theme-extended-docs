@@ -136,6 +136,26 @@
               <IconGithub class="w-5 h-5" />
             </a>
             <a
+              v-if="settings.youtube"
+              :href="settings.youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="youtube"
+              name="youtube"
+              class="
+                text-gray-700
+                dark:text-gray-300
+                hover:text-primary-500
+                dark-hover:text-primary-500
+                ml-4
+              "
+              :class="{
+                'hidden lg:block': settings.layout !== 'single',
+              }"
+            >
+              <IconYoutube class="w-5 h-5" />
+            </a>
+            <a
               v-if="settings.website"
               :href="settings.website"
               target="_blank"
