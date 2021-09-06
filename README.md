@@ -1,4 +1,4 @@
-# @nuxt/content-theme-extended-docs
+# @notchafrica/nuxt-extended-docs
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -11,10 +11,10 @@
 
 ```bash
 # Yarn
-yarn create nuxt-content-extended-docs <project-name>
+yarn create nuxt-extended-docs <project-name>
 
 # NPX
-npx create-nuxt-content-extended-docs <project-name>
+npx create-nuxt-extended-docs <project-name>
 ```
 
 It's as simple as that!
@@ -28,9 +28,9 @@ It's as simple as that!
 <!-- Badges -->
 
 [npm-version-src]: https://img.shields.io/npm/v/@nuxt/content-theme-docs/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxt/content-theme-extended-docs
+[npm-version-href]: https://npmjs.com/package/@notchafrica/nuxt-extended-docs
 [npm-downloads-src]: https://img.shields.io/npm/dt/@nuxt/content-theme-docs.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxt/content-theme-extended-docs
+[npm-downloads-href]: https://npmjs.com/package/@notchafrica/nuxt-extended-docs
 [license-src]: https://img.shields.io/npm/l/@nuxt/content.svg
 [license-href]: https://npmjs.com/package/@nuxt/content
 [lerna-src]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
