@@ -93,22 +93,6 @@
               <IconTwitter class="w-5 h-5" />
             </a>
             <a
-              v-if="settings.facebook"
-              :href="settings.facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-              name="Facebook"
-              class="
-                inline-flex
-                text-gray-700
-                dark:text-gray-300
-                hover:text-primary-500
-              "
-            >
-              <IconFacebook class="w-5 h-5" />
-            </a>
-            <a
               v-if="settings.github"
               :href="githubUrls.repo"
               target="_blank"
@@ -147,6 +131,26 @@
               }"
             >
               <IconYoutube class="w-5 h-5" />
+            </a>
+            <a
+              v-if="settings.facebook"
+              :href="settings.facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Facebook"
+              name="Facebook"
+              class="
+                text-gray-700
+                dark:text-gray-300
+                hover:text-primary-500
+                dark-hover:text-primary-500
+                ml-4
+              "
+              :class="{
+                'hidden lg:block': settings.layout !== 'single',
+              }"
+            >
+              <IconFacebook class="w-5 h-5" />
             </a>
             <a
               v-if="settings.website"
